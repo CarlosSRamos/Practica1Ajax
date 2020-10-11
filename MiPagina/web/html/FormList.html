@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Práctica 1</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/formlist.css">
+    <script src="../js/formist.js"></script> 
+</head>
+
+<body>
+    <header id="Titulo">Tablas y formulario</header>
+    
+    <div class="Formulario">
+        <h1>Formulario de usario</h1>
+        <label for="Usuario">Usuario</label><br>
+        <input type="text" id="us"><br> 
+        <label for="Contraseña">Contraseña</label><br> 
+        <input type="password" id="con"><br>
+        <form action="../index.html">
+            <input type="submit" value="Login">
+        </form> 
+    </div>
+
+    <div class="While">
+        <h1>Lenguajes Usados</h1>
+        <input type="button" value="Lenguajes" onclick="lenguajes_utilizados()">
+        <p id="leng"></p>
+    </div>
+
+    <div class="Tablas">
+        <h1>Tablas</h1>
+        <label for="Columnas">Columnas:</label><br>
+        <input type="number" id="colum" min="1" pattern="^[0-9]+"><br> 
+        <label for="Renglones">Renglones:</label><br> 
+        <input type="number" id="reng" min="1" pattern="^[0-9]+"><br> 
+        <input type="button" value="Genera una tabla con for" onclick="verifica_datos()">
+    </div>
+
+</body>
+
+</html>

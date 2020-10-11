@@ -1,0 +1,13 @@
+body{
+    background-image: url(../imgs/background.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+#Titulo{
+    text-align: center;
+    font-size: 5vh;
+}
+li{
+    position: relative;
+    padding-top: 20px;
+}

@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23-oct-2020, 18:07:22
+    Author     : justgunner
+*/
+body{
+    background-image: url(../imgs/background.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+table,th,td{
+    align-content: center;
+    border: 2px solid black;
+    margin: auto;
+}
+th{
+   color: aliceblue;
+   text-align: center;
+}
+#botonopciones{
+    margin-top: 20px;
+}
+#fecha{
+    text-align: center;
+    color: aliceblue;
+}
+.titulo{
+    text-align: center;
+    font-size: 11vh;
+}
+.boton{
+    margin: 20px;
+    margin-left: 57px;
+}
+#myContainer {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background: yellow;
+}
+#myAnimation {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: red;
+}

@@ -1,0 +1,4 @@
+<h2>Este es el archivo de carga 2</h2>
+<br>
+<p>Aquí encontraremos algunos tags y una imagen diferente, la cual se obtendra del servidor por una url y una función como parametro a la funcion solicitada</p>
+<img src="./img/img_ajax.jpg" width="400" height="400">

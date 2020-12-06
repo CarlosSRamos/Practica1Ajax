@@ -1,0 +1,4 @@
+<h1>Este es el archivo de carga 4</h1>
+<br>
+<p>Aquí encontraremos algunos tags y una imagen diferente de manera síncrona ademas de un poco de lore ipsum: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis vulputate vestibulum. Etiam ornare velit eget sapien auctor fringilla vitae sit amet nisi. Nullam dolor quam, aliquam in quam ut, rutrum cursus nunc. Aenean elementum diam ac enim fringilla semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec elit et leo efficitur vehicula. Mauris dapibus luctus quam, ut aliquet augue dictum nec.</p>
+<img src="./img/imagen4.png" width="500" height="500">

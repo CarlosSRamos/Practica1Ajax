@@ -1,0 +1,4 @@
+<h3>Este es el archivo de carga 3</h3>
+<br>
+<p>Aquí encontraremos algunos tags y una imagen diferente, la cual se obtendra del servidor por una url y una función como parametro a la funcion solicitada</p>
+<img src="./img/imagen3.jpg" width="500" height="500">

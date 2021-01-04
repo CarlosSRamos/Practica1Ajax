@@ -33,5 +33,31 @@ function cargaArchivo() {
   xhttp.open("GET", "./txt/archivo1.txt", true);
   xhttp.send();
 }
+function cargaXML(){
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        leeXML(this);
+    }
+  };
+  xhttp.open("GET", "./xml/cd.xml", true);
+  xhttp.send();
+}
+function leeXML(xml){
+  var i;
+  var xmlDoc = xml.responseXML;
+  var lista = "";
+  var x = xmlDoc.getElementsByTagName("CD");
+  for (i = 0; i < x.length; i++) { 
+    lista += "<li>" +
+    x[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue +
+    " - " +
+    x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue +
+    " - " +
+    x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue +
+    "</li>";
+  }
+  document.getElementById("xml").innerHTML = lista;
+}
 
 

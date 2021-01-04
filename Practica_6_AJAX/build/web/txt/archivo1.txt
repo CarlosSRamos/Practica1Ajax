@@ -1,0 +1,4 @@
+<h1>Este es el archivo de carga 1</h1>
+<br>
+<p>Aquí encontraremos algunos tags y una imagen</p>
+<img src="./img/ajax.png" width="600" height="600">
